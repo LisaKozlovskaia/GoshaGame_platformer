@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
             {
-            rb.AddForce(Vector2.up * 8000);
+            rb.AddForce(Vector2.up * 10000);
                     }
 
         if (moveX > 0 && !faceRight)
